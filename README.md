@@ -1,4 +1,4 @@
-**CFM 101 Robo-Advising Challenge — Market Meet Strategy**
+# CFM 101 Robo-Advising Challenge — Market Meet Strategy
 
 **Team:** 09  
 **Team Members:** Aryan Singh, Jack Smith, Samyak Jain  
@@ -6,7 +6,7 @@
 
 Portfolio optimization project developed for the CFM 101 Robo-Advising Challenge. The program screens a provided universe of U.S. and Canadian equities, applies liquidity and portfolio constraints, and constructs a $1,000,000 CAD portfolio designed to follow the Market Meet strategy.
 
-**Methodology**
+## Methodology
 
 - **Ticker screening:** Filters the provided ticker universe to eligible U.S. and Canadian equities based on the challenge requirements.
 
@@ -22,7 +22,7 @@ Portfolio optimization project developed for the CFM 101 Robo-Advising Challenge
 
 - **Share allocation:** Converts target portfolio weights into share quantities while deploying as much of the $1,000,000 CAD portfolio as possible.
 
-**Portfolio Constraints**
+## Portfolio Constraints
 
 - Select 10–25 stocks.
 - Maximum 15% allocation to any individual stock.
@@ -31,7 +31,7 @@ Portfolio optimization project developed for the CFM 101 Robo-Advising Challenge
 - Exclude stocks that do not satisfy the required liquidity threshold.
 - Account for transaction fees and foreign exchange when constructing the final portfolio.
 
-**Key Outputs**
+## Key Outputs
 
 - Filtered equity universe
 - Combined S&P 500 and TSX benchmark
@@ -41,7 +41,7 @@ Portfolio optimization project developed for the CFM 101 Robo-Advising Challenge
 - Portfolio constraint validation
 - Final submission file: `Stocks_Group_09.csv`
 
-**Libraries**
+## Libraries
 
 | Library | Use |
 | --- | --- |
@@ -54,7 +54,7 @@ Portfolio optimization project developed for the CFM 101 Robo-Advising Challenge
 | `datetime` | Date handling |
 | `random` | Randomized operations where required |
 
-**Benchmark**
+## Benchmark
 
 The portfolio uses an equally weighted combination of daily returns from:
 
